@@ -1,5 +1,7 @@
 'use strict'
 
+const isEqual = require('lodash.isequal')
+
 function findDuplicates (arr, stopAtFirstSet, duplicates, mark) {
   duplicates = duplicates == null ? [] : duplicates
   let indices = []
@@ -13,7 +15,7 @@ function findDuplicates (arr, stopAtFirstSet, duplicates, mark) {
   }
 
   for (let i = startIndex; i < arr.length; i++) {
-    if (arr[i] === arr[startIndex]) {
+    if (isEqual(arr[i], arr[startIndex])) {
       indices.push(i)
     }
   }
