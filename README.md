@@ -6,6 +6,8 @@
 
 Finds indices of duplicates in an array of elements.
 
+find-duplicates uses lodash.isequal to make comparisons, so any type supported by lodash.isequal is supported by find-duplicates.
+
 ## Node Repository
 
 [https://www.npmjs.com/package/@pelevesque/find-duplicates](https://www.npmjs.com/package/@pelevesque/find-duplicates)
