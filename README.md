@@ -22,7 +22,7 @@ find-duplicates uses lodash.isequal to make comparisons, so any type supported b
 
 `npm test`
 
-### Standard Style & Unit Tests & Coverage
+### Unit Tests & Coverage
 
 `npm run cover`
 
