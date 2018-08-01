@@ -1,6 +1,6 @@
 {
   "name": "@pelevesque/find-duplicates",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Finds indices of duplicates in an array of elements.",
   "main": "index.js",
   "engines": {
